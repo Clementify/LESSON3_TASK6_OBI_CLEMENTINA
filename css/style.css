@@ -51,3 +51,99 @@ table {
 
 
 /* Write your css below here */
+
+*{box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+header {
+	background-color: hsl(200, 10%, 94%);
+	height: 20vh;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	/* justify-items: auto; */
+}
+h1{
+	font-size: 40px;
+	padding-left: 35%;
+	padding-top: 50px;
+	
+
+}
+h1:hover{
+	color: darkred;
+}
+a{
+	color: black;
+	padding-left: 85%;
+	padding-bottom: 60%;
+	font-size: 20px;
+	position: static;
+}
+a:hover{
+	color: burlywood;
+}
+main{
+	
+	height: 100vh;
+	width: 100vw;
+	
+}
+.img{
+	background-color: #c7c1bc;
+	padding-left: 40%;
+	padding-top: 20px;
+	
+}
+.img:hover{
+	animation-duration: 5ms;
+}
+	
+
+.aside-right{
+	padding-left: 30px;
+	padding-top: 30px;
+	padding-right: 30px;
+	height: 40vh;
+	font-size: 30px;
+justify-content: center;
+font-weight: 600;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+	
+
+footer{
+	background-color:#c7c1bc;
+	font-size: 20px;
+	height: 10vh;
+	color: darkred;
+	padding-left: 45%;
+	padding-top: 20px;
+	position: static;
+	font-display: 40px;
+}
+
+
+ /* MEDIA QUERRIES */
+
+ @media screen and ( width: <= 475;){
+	h1{
+		font-size: 10px;
+	}
+	.img{
+		width: 400px;
+	}
+a{
+	display: none;
+}
+ }
+@media screen and ( width: >= 677;){
+	.img{
+		border-width: 30px;
+
+ }
+ a{
+	display: none;
+ }
+	
+}
