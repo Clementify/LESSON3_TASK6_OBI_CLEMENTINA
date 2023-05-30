@@ -137,13 +137,5 @@ a{
 	display: none;
 }
  }
-@media screen and ( width: >= 677;){
-	.img{
-		border-width: 30px;
-
- }
- a{
-	display: none;
- }
 	
-}
+ 
